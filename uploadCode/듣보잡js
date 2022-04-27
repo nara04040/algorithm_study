@@ -1,0 +1,26 @@
+// 듣도 못한사람과 보지도 못한사람의 명단 2개
+// 둘다 해당되는 명단을 구하는 걸 만들어라
+// 첫번째 줄에 듣지 못한 수 N, 보지못한수 M
+// 둘째 줄부터 N개의 줄에 걸쳐 듣지못한사람이름과 N+2부터 보지도못한사람이름이 순서대로 주어짐.
+// 띄어쓰기없고 소문자로 이뤄짐.
+// 사전순으로 순회
+
+const personN = new Set(); // 듣지못한사람
+const personM = new Set(); // 보지못한사람
+
+// input되는 속성의 수를 길이만큼 돌면서 듣지못한사람과 보지못한사람을 각각 구하고
+for (let i = 0; i < input.length; i++) { 
+  if (i < ) {
+    personN.add(input[i]);
+  } else {
+    personM.add(input[i]);
+  }
+}
+let answer = [];
+personM.forEach((item) => {
+  //만약에 보지도 못한사람을 하나하나 순회할때
+  if (personN.has(item)) answer.push(item); // 듣지도못한사람이 있으면 answer에 추가해라
+});
+answer.sort();
+
+console.log(answer);
