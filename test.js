@@ -1,2 +1,2 @@
 /** my first */
-console.log(what?)
+console.log(what);
