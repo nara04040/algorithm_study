@@ -1,5 +1,5 @@
 const fs = require("fs");
-const input = fs.readFileSync("example.txt").toString().split("\n");
+const input = fs.readFileSync("/dev/stdin").toString().split("\n");
 // 첫째 줄에 주어진 정수 N개의 최솟값과 최댓값을 공백으로 구분해 출력
 /**
  * 풀이 방식 : 최솟값과 최댓값을 구하여 공백을 넣어서 출력하자
