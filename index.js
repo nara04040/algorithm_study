@@ -1,12 +1,13 @@
-const readline = require("readline");
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-let input = [];
-rl.on("line", function (line) {
-  input = line.toString().trim();
-}).on("close", function () {
-  console.log(obj[input]);
-  process.exit();
-});
+let input = require("fs")
+  .readFileSync("example.txt")
+  .toString()
+  .trim()
+  .split("");
+
+// console.log(input);
+let a = new Array(26).fill(0);
+
+// console.log(a);
+for (let i = 0; i < input.length; i++) {
+  console.log(input[i]);
+}
