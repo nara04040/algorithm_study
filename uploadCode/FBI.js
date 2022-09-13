@@ -14,7 +14,9 @@ let input = require("fs").readFileSync("example.txt").toString().split("\n");
 
 function agent() {
   for (let i = 0; i < input.length; i++) {
-    console.log(input[i].includes("FBI"));
+    if (input[i].includes("FBI")) {
+      answer += i + 1 + " ";
+    }
     // let findFbi = input[i].indexOf("FBI");
     // console.log(findFbi === true);
   }

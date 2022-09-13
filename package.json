@@ -1,0 +1,23 @@
+{
+  "name": "baekjoon",
+  "version": "1.0.0",
+  "description": "👻 사용법 1. index에 푼다. 2. example에 예제를 넣는다! 3. 백준에 올릴때는 /dev/stdin으로 바꾸자!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ./ -e txt,js solve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nara04040/baekjoon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nara04040/baekjoon/issues"
+  },
+  "homepage": "https://github.com/nara04040/baekjoon#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
