@@ -26,3 +26,7 @@ for (let i = 0; i < a.length; i++) {
 console.log(answer + stackB.length);
 //근데 이 방법은 에너그램이 성립이 되나?
 // [a,b,b,a] 이게 에너그램이 아닌가?
+
+// input :
+// aabbcc
+// xxyybb
